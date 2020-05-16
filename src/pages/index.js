@@ -1,3 +1,4 @@
 import React from "react"
+import "../styles.css"
 
-export default () => <div>Hello world!</div>
+export default () => <div className="bg-blue-200">Hello world!</div>
