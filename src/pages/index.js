@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import { useTheme } from "../utils/themeContext"
 // import { Link } from "gatsby"
-import { Header, Projects, Nav } from "../components"
+import { Header, Projects, Nav, InfoCard } from "../components"
 import "../styles.css"
 import background from "../images/background.jpg"
 
@@ -11,6 +11,9 @@ export default () => {
   return (
     <div>
       <Layout>
+        {/* InfoCard */}
+
+        <InfoCard />
         <Nav />
         <Header />
         <img src={background} alt="Just a background" />
@@ -54,6 +57,7 @@ export default () => {
           </div>
         </div>
       </Layout>
+
       {/* extra code */}
     </div>
   )

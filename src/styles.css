@@ -4,7 +4,12 @@
 
 @import "tailwindcss/utilities";
 
-.con > div {
+html,
+body {
+  @apply font-roboto;
+}
+
+.con>div {
   cursor: pointer;
   background-size: cover;
   background-attachment: fixed;
