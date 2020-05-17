@@ -64,7 +64,7 @@ body {
   --color-heading-muted: theme("colors.gray.600");
 
   --color-background: theme("colors.orange.200");
-  --color-background-muted: theme("colors.gray.300");
+  --color-background-muted: theme("colors.orange.100");
 }
 
 .theme-dark {
