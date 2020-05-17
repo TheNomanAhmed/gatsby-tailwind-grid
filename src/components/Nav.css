@@ -1,0 +1,6 @@
+a:hover > svg * {
+  /* fill: #ecd9ff; */
+}
+a:hover > svg > .home {
+  /* fill: #ecd9ff; */
+}

@@ -1,8 +1,8 @@
 import React from "react"
-
+import "./Nav.css"
 export const Nav = () => {
   return (
-    <div className="w-full">
+    <div className="w-full bg-white">
       <section
         id="bottom-navigation"
         className="sm:hidden block fixed inset-x-0 bottom-0 z-10 bg-white shadow"
@@ -14,6 +14,52 @@ export const Nav = () => {
         >
           <div id="tabs" className="flex justify-between">
             <a
+              href="#"
+              className="w-full focus:text-teal-500  group  hover:text-primary justify-center inline-block text-center pt-2 pb-1"
+            >
+              <svg
+                width="24.172"
+                height="23"
+                className="inline-block group mb-1 hover:text-teal-500"
+                // fill="#ecd9ff"
+              >
+                <path
+                  className="group-hover:fill-none "
+                  data-name="Path 4"
+                  d="M11.143 0A1.857 1.857 0 0113 1.857a30.6 30.6 0 00-2.106 9.95c0 4.821.249 10.038.249 10.038C11.143 22.872 9.92 23 8.894 23H3.855A1.857 1.857 0 012 21.143l-2-10C0 8.454 9.23 0 11.143 0z"
+                  fill="#ecd9ff"
+                />
+                <path
+                  className="group-hover:fill-navLight"
+                  data-name="Path 1"
+                  d="M3.776 9.527v11.617a.788.788 0 00.788.788H9.29v-6.695a1.181 1.181 0 011.181-1.181h3.938a1.181 1.181 0 011.181 1.181v6.69h4.726a.788.788 0 00.788-.788V9.527"
+                  fill="none"
+                  stroke="#639"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  className="group-hover:fill-navLight"
+                  data-name="Path 2"
+                  d="M23.466 11.692L12.975 1.651a.831.831 0 00-1.072 0L1.413 11.692"
+                  fill="none"
+                  stroke="#639"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  className="group-hover:fill-navLight"
+                  data-name="Path 3"
+                  d="M19.528 7.902V2.241h-2.363v3.4"
+                  fill="none"
+                  stroke="#639"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+              <span className="tab tab-home block text-xs ">Mine</span>
+            </a>
+            {/* <a
               href="#"
               className="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center pt-2 pb-1"
             >
@@ -28,7 +74,7 @@ export const Nav = () => {
                 <path d="M26.5 11.839l-4.174-3.993v-6.06a.893.893 0 00-.893-.893h-2.677a.893.893 0 00-.893.893v1.786L14.631.482A1.737 1.737 0 0013.392 0a1.732 1.732 0 00-1.235.482L.288 11.838a.91.91 0 00-.075 1.248.893.893 0 001.294.059L13.086 2.08a.446.446 0 01.617 0l11.58 11.065a.893.893 0 001.261-.025.915.915 0 00-.044-1.281z" />
               </svg>
               <span className="tab tab-home block text-xs">Mine</span>
-            </a>
+            </a> */}
             <a
               href="#"
               className="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center pt-2 pb-1"
@@ -86,37 +132,40 @@ export const Nav = () => {
 
             <a
               href="#"
-              className="w-full focus:text-teal-500 hover:text-teal-500 justify-center inline-block text-center pt-2 pb-1"
+              className="w-full focus:text-teal-500 group text-primary hover:text-primary justify-center inline-block text-center pt-2 pb-1"
             >
               <svg
                 width="25"
                 height="25"
                 viewBox="0 0 42 42"
-                className="inline-block mb-1"
+                className="inline-block mb-1 text-primary "
               >
                 <g
+                  className="group-hover:fill-navDark"
                   stroke="none"
                   stroke-width="1"
                   fill="none"
                   fill-rule="evenodd"
                 >
-                  <path
-                    d="M20.5890101,0.254646884 C12.8696785,5.50211755 8.0025785,14.258415 14.1941217,18.8708225 C23.16683,25.5550669 13.3362326,40.2698884 33.1021758,38.4149164 C29.6814884,40.8311956 25.5065164,42.2507054 21,42.2507054 C9.40202025,42.2507054 0,32.8486852 0,21.2507054 C0,9.79003409 9.18071714,0.473634138 20.5890101,0.254646884 Z"
-                    fill="currentColor"
-                    opacity="0.1"
-                  ></path>
-                  <path
-                    d="M25.9500282,20.3643496 L22.4308312,38.2677802 C22.3775703,38.5387376 22.1147395,38.7152155 21.8437821,38.6619546 C21.6570955,38.6252584 21.507413,38.4857901 21.4576354,38.3021581 L16.5951895,20.3643496 L20.099732,4.44663907 C20.1385204,4.27046145 20.2692032,4.12883813 20.4417012,4.07604096 C20.7057521,3.99522179 20.9853245,4.14376046 21.0661436,4.40781135 L25.9500282,20.3643496 Z M21.3022963,22.2852638 C22.4068658,22.2852638 23.3022963,21.3898333 23.3022963,20.2852638 C23.3022963,19.1806943 22.4068658,18.2852638 21.3022963,18.2852638 C20.1977268,18.2852638 19.3022963,19.1806943 19.3022963,20.2852638 C19.3022963,21.3898333 20.1977268,22.2852638 21.3022963,22.2852638 Z"
-                    fill="currentColor"
-                    transform="translate(21.272609, 20.629524) rotate(-315.000000) translate(-21.272609, -20.629524) "
-                  ></path>
                   <circle
+                    className="group-hover:fill-navLight"
                     stroke="currentColor"
                     stroke-width="2"
                     cx="21"
                     cy="21"
                     r="20"
                   ></circle>
+                  <path
+                    d="M20.5890101,0.254646884 C12.8696785,5.50211755 8.0025785,14.258415 14.1941217,18.8708225 C23.16683,25.5550669 13.3362326,40.2698884 33.1021758,38.4149164 C29.6814884,40.8311956 25.5065164,42.2507054 21,42.2507054 C9.40202025,42.2507054 0,32.8486852 0,21.2507054 C0,9.79003409 9.18071714,0.473634138 20.5890101,0.254646884 Z"
+                    fill="currentColor"
+                    opacity="0.1"
+                  ></path>
+                  <path
+                    className="group-hover:fill-navDark"
+                    d="M25.9500282,20.3643496 L22.4308312,38.2677802 C22.3775703,38.5387376 22.1147395,38.7152155 21.8437821,38.6619546 C21.6570955,38.6252584 21.507413,38.4857901 21.4576354,38.3021581 L16.5951895,20.3643496 L20.099732,4.44663907 C20.1385204,4.27046145 20.2692032,4.12883813 20.4417012,4.07604096 C20.7057521,3.99522179 20.9853245,4.14376046 21.0661436,4.40781135 L25.9500282,20.3643496 Z M21.3022963,22.2852638 C22.4068658,22.2852638 23.3022963,21.3898333 23.3022963,20.2852638 C23.3022963,19.1806943 22.4068658,18.2852638 21.3022963,18.2852638 C20.1977268,18.2852638 19.3022963,19.1806943 19.3022963,20.2852638 C19.3022963,21.3898333 20.1977268,22.2852638 21.3022963,22.2852638 Z"
+                    fill="currentColor"
+                    transform="translate(21.272609, 20.629524) rotate(-315.000000) translate(-21.272609, -20.629524) "
+                  ></path>
                 </g>
               </svg>
               <span className="tab tab-explore block text-xs">Explore</span>
