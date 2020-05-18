@@ -1,5 +1,5 @@
 import React from "react"
-import InfoCardComp from "./InfoCardComp"
+import { InfoCardComp } from "./InfoCardComp"
 
 export const InfoCard = () => {
   return (

@@ -2,7 +2,7 @@ import React from "react"
 import { graphql } from "gatsby"
 import { MDXRenderer } from "gatsby-plugin-mdx"
 import Layout from "../components/Layout"
-// import "./layout.css"
+import "./layout.css"
 
 export const data = graphql`
   query BlogPostQuery($id: String) {

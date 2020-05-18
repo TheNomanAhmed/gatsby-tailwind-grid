@@ -1,5 +1,6 @@
 export * from "./Header"
 export * from "./Projects"
 export * from "./Nav"
-export * from "./InfoCard"
 export * from "./Button"
+export * from "./InfoCard"
+export * from "./InfoCardComp"

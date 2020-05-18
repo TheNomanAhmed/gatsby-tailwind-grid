@@ -1,9 +1,9 @@
 import React from "react"
 import { MDXProvider } from "@mdx-js/react"
 import { useTheme } from "../utils/themeContext"
-import { Header, Button } from "./index"
+import { Header, Button, InfoCardComp } from "./index"
 
-const shortcodes = { Button }
+const shortcodes = { Button, InfoCardComp }
 
 const Layout = ({ children }) => {
   const { theme } = useTheme()

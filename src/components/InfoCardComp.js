@@ -1,6 +1,6 @@
 import React from "react"
 
-const InfoCardComp = ({
+export const InfoCardComp = ({
   className,
   borderColor,
   heading,
@@ -30,5 +30,3 @@ const InfoCardComp = ({
     </div>
   )
 }
-
-export default InfoCardComp
