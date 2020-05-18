@@ -3,12 +3,12 @@ import { Link } from "gatsby"
 
 export const Cta = ({ line1, line2, btn1, btn2, link1, link2 }) => {
   return (
-    <div className="bg-background mt-12 pb-8">
+    <div className="mt-12 pb-8">
       <div className=" mx-auto">
-        <h2 className="text-3xl leading-9 font-extrabold tracking-tight text-gray-900 sm:text-4xl sm:leading-10">
+        <h2 className="text-3xl leading-9 font-extrabold tracking-tight text-primary sm:text-4xl sm:leading-10">
           {line1}
           <br />
-          <span className="text-indigo-600">{line2}</span>
+          <span className="text-secondary">{line2}</span>
         </h2>
         <div className="mt-8 flex item-center flex0">
           <div className="inline-flex rounded-md shadow">

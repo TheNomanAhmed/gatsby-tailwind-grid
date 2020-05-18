@@ -3,7 +3,7 @@ import { InfoCardComp } from "./InfoCardComp"
 
 export const InfoCard = () => {
   return (
-    <div className="flex flex-row flex-wrap justify-center item-center bg-background p-5">
+    <div className="flex flex-row flex-wrap justify-center item-center p-5">
       <InfoCardComp
         className="text-blue-500"
         borderColor="border border-teal-500"

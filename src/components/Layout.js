@@ -9,7 +9,7 @@ const Layout = ({ children }) => {
   const { theme } = useTheme()
   return (
     <div
-      className={`content-transition bg-background  font-roboto duration-200 ${theme}`}
+      className={`content-transition bg-background text-primary font-roboto duration-200 ${theme}`}
     >
       <div className="max-w-screen-lg mx-auto">
         <Header />

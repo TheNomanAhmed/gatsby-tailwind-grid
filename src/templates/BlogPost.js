@@ -19,7 +19,7 @@ export const data = graphql`
 const BlogPost = ({ data: { mdx } }) => {
   return (
     <Layout>
-      <div className="w-full h-full bg-background text-primary">
+      <div className="w-full h-full">
         <div className="-lg mx-auto ">
           <h1>{mdx.frontmatter.title}</h1>
           <MDXRenderer>{mdx.body}</MDXRenderer>

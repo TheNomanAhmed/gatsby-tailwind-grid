@@ -14,7 +14,7 @@ export const InfoCardComp = ({
         className={`antialiased w-auto sm:max-w-md  group p-8 hover:shadow-2xl rounded-md transform hover:-translate-y-2 bg-background-muted transition-all ease-linear duration-200 ${borderColor}`}
       >
         {/* <div className="antialiased max-w-md  group p-8 hover:shadow-2xl rounded-md transform hover:-translate-y-3 bg-white transition-all ease-linear duration-300"> */}
-        <div className="flex over justify-between">
+        <div className="flex justify-between">
           <div className="text-xl tracking-wide text-heading font-semibold">
             {heading}
           </div>

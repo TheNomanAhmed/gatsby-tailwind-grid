@@ -5,7 +5,7 @@ import machines from "../images/machines.jpg"
 
 export const Projects = () => {
   return (
-    <main className="sm:grid sm:grid-cols-2 md:grid-cols-3 py-10 gap-4 sm:px-4 bg-background">
+    <main className="sm:grid sm:grid-cols-2 md:grid-cols-3 py-10 gap-4 sm:px-4">
       <article className="bg-background-muted text-primary mb-3 text-center rounded-md">
         <img src={beans} alt="Beans" className="w-full rounded-t-md " />
         <div className="py-2">

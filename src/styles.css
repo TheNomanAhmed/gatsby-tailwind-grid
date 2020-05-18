@@ -9,7 +9,7 @@ body {
   @apply font-roboto;
 }
 
-.con>div {
+.con > div {
   cursor: pointer;
   background-size: cover;
   background-attachment: fixed;
