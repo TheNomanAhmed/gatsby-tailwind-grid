@@ -2,7 +2,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import { useTheme } from "../utils/themeContext"
 // import { Link } from "gatsby"
-import { Header, Projects, Nav, InfoCard } from "../components"
+import { Projects, Nav, InfoCard } from "../components"
 import "../styles.css"
 import background from "../images/background.jpg"
 
@@ -15,13 +15,13 @@ export default () => {
 
         <InfoCard />
         <Nav />
-        <Header />
+
         <img src={background} alt="Just a background" />
         <Projects />
 
         {/* Extra toggle code */}
 
-        <div className="absolute w-screen h-screen bg-background p-12 flex flex-col align-center">
+        <div className="absolute w-full h-screen bg-background p-12 flex flex-col align-center">
           <h1 className="text-center text-heading text-4xl font-bold">
             Gatsby + Tailwind Theming example
           </h1>
