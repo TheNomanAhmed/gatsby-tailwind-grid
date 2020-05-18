@@ -8,9 +8,13 @@ const shortcodes = { Button, Cta, InfoCardComp }
 const Layout = ({ children }) => {
   const { theme } = useTheme()
   return (
-    <div className={`content-transition font-roboto duration-200 ${theme}`}>
-      <Header />
-      <MDXProvider components={shortcodes}>{children}</MDXProvider>
+    <div
+      className={`content-transition bg-background  font-roboto duration-200 ${theme}`}
+    >
+      <div className="max-w-screen-lg mx-auto">
+        <Header />
+        <MDXProvider components={shortcodes}>{children}</MDXProvider>
+      </div>
     </div>
   )
 }

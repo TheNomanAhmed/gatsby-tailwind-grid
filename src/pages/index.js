@@ -21,7 +21,7 @@ export default () => {
 
         {/* Extra toggle code */}
 
-        <div className="absolute w-full h-screen bg-background p-12 flex flex-col align-center">
+        <div className="w-full bg-background p-12 flex flex-col align-center">
           <h1 className="text-center text-heading text-4xl font-bold">
             Gatsby + Tailwind Theming example
           </h1>
