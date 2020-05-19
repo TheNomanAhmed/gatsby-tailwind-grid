@@ -23,7 +23,7 @@ export const Header = () => {
         </li>
         <li className="m-0">
           <button
-            className="px-4 border rounded-lg bg-background-muted hover:bg-primary text-heading transition duration-200"
+            className="px-4 border rounded-lg bg-background-muted hover:bg-primary-hover text-heading transition duration-200"
             onClick={toggleTheme}
           >
             Themes

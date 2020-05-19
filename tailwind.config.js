@@ -6,7 +6,13 @@ module.exports = {
         roboto: ["roboto", "sans-serif"],
       },
       colors: {
-        // primary: "#639",
+        // "primary-light": "#6136e2",
+        "back-light": "#0A041A",
+        "back-light-hover": "#181326",
+
+        "heading-dark": "#9984D5",
+        "back-dark": "#0A041A",
+        "back-dark-hover": "#181326",
         // secondary: "#ecd9ff",
         // negative: "var(--color-negative)",
         // positive: "var(--color-positive)",
